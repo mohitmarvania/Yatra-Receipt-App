@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddUserDetails">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:hint="Fill the form"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/rounded_corner">
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/bhavdiya"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:inputType="text"
+            android:maxLength="30"
+            android:padding="5dp"
+            android:layout_margin="8dp" />
+
+        <EditText
+            android:id="@+id/editGam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/village"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:inputType="text"
+            android:maxLength="30"
+            android:padding="5dp"
+            android:layout_margin="8dp" />
+
+        <EditText
+            android:id="@+id/editMobileNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/mobilenumber"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:inputType="number"
+            android:padding="5dp"
+            android:layout_margin="8dp" />
+
+        <EditText
+            android:id="@+id/editTirthYatra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tirth_yatra"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:inputType="text"
+            android:padding="5dp"
+            android:layout_margin="8dp" />
+
+        <EditText
+            android:id="@+id/editTotalPeople"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/total_person"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:inputType="number"
+            android:maxLength="2"
+            android:padding="5dp"
+            android:layout_margin="8dp" />
+
+        <EditText
+            android:id="@+id/editTotalChildren"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/children"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:inputType="number"
+            android:maxLength="2"
+            android:padding="5dp"
+            android:layout_margin="8dp" />
+
+        <EditText
+            android:id="@+id/editAmountPaid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/amount"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:inputType="number"
+            android:padding="5dp"
+            android:layout_margin="8dp" />
+
+        <EditText
+            android:id="@+id/editDeposit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/deposit"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:inputType="number"
+            android:padding="5dp"
+            android:layout_margin="8dp" />
+
+        <EditText
+            android:id="@+id/editBaki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/remaining"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:inputType="number"
+            android:padding="5dp"
+            android:layout_margin="8dp" />
+
+        <EditText
+            android:id="@+id/editSvikarnar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="સ્વીકારનાર"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:inputType="text"
+            android:maxLength="30"
+            android:padding="5dp"
+            android:layout_margin="8dp" />
+
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/generateRecieptBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Generate Invoice"
+        android:layout_marginTop="5dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_below="@id/generateRecieptBtn"
+        android:layout_gravity="center"
+        android:scaleType="centerInside" />
+
+
+</LinearLayout>

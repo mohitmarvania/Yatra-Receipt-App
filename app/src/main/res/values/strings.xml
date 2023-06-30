@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Yatra_Receipt</string>
+    <string name="bhavdiya">ભવદિય શ્રી </string>
+    <string name="village">ગામ </string>
+    <string name="mobilenumber">મોબાઈલ નંબર </string>
+    <string name="tirth_yatra">તિર્થયાત્રા </string>
+    <string name="anke_rupiya">માટે આપના તરફથી અંકે રૂ|.</string>
+    <string name="today">આજરોજ </string>
+    <string name="total_person"> કુલયાત્રી </string>
+    <string name="children"> બાળકો </string>
+    <string name="deposit"> ડિપોઝિટ </string>
+    <string name="remaining"> બાકી </string>
+    <string name="amount"> રકમ </string>
+    <string name="date_of_travel"> તારીખ </string>
+
+</resources>
